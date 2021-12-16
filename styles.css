@@ -1,0 +1,217 @@
+
+
+.body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+.colored-section {
+    background-color: #FF2E63;
+}
+
+/* container*/
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.row {
+    margin: 0;
+}
+
+/* navbar */
+
+#navbar {
+    background-color: #252A34;
+    opacity: 1;
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+.navbar {
+    padding: 30px;
+    height:5%;
+}
+
+
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 500;
+    padding-left: 5%;
+}
+
+.navbar-links {
+    padding-right: 5%;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.download-button.btn {
+    padding: 0;
+    height: 40px;
+    width: 120px;
+
+}
+
+.resume {
+    padding: 0;
+}
+
+
+/* title */
+
+
+#title {
+      
+    /* Preserve aspet ratio */
+
+    font-family: 'Bakbak One';
+    color: white;
+
+}
+
+#title .container-fluid {
+
+    background-image: url("images/title-background.png");
+    background-size:cover;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+}
+
+@media (max-width: 992px) {
+    #title .container-fluid {
+        text-align: center;
+    }
+    
+    .title-introduction-p {
+        text-align: center;
+    }
+    /* .title-image {
+        width: 60%;
+        transform: rotate(0deg);
+        position: static;
+        right: 25%;
+    } */
+
+
+}
+
+.title-content-container {
+    width: 100%;
+    height: 100%;
+}
+
+#introduction {
+    background-color: #08D9D6;
+    background: rgba(8, 217, 214, 0.5);
+    outline: solid #252A34 7px;
+    border-radius: 25px;
+    position: relative;
+    margin: 0 auto;
+    text-align: left;
+    height: max-content;
+    width: max-content;
+    top: 30%;
+}
+
+.title-introduction-h1 {
+    color: #FF2E63;
+    font-size: 3.5rem;
+    text-shadow:
+   -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+     2px 2px 0 #000;
+}
+
+.title-introduction-p {
+    font-size: 1.5rem;
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.title-introduction u {
+    text-decoration: underline #FF2E63;
+
+}
+
+/* udemy */
+
+#udemy {
+    position: relative;
+}
+
+.udemy-content {
+
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    top: 70%;
+    
+}
+
+.udemy-title {
+    color:#FF2E63;
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+
+
+
+
+/* techstack */
+
+#techstack {
+    font-family: 'Bakbak One';
+    background-color: #EAEAEA;
+    padding: 1% 0 1%;
+ 
+}
+
+.techstack-content {
+    
+    position: relative;
+    margin: 0 auto;
+    height: 20%;
+    width: 80%;
+    max-width: 100%;
+    top: 30%;
+
+}
+
+.techstack-title {
+    text-align: center;
+    font-weight: bold;
+    border-top: solid;
+}
+
+.techstack-images {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+}
+
+.techstack-image {
+    width: auto;
+    max-width: 150px;
+    height: auto;
+    max-height: 75px;
+    margin: 1% 2% 1%;
+}

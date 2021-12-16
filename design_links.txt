@@ -1,0 +1,34 @@
+font - poppins
+https://fonts.google.com/specimen/Poppins
+
+color pallete
+https://colorhunt.co/palette/08d9d6252a34ff2e63eaeaea
+
+
+Structure
+
+//navbar //
+dragginglinks
+brand
+resume download link
+
+//title
+about me
+intro
+
+//techstack
+icons + think of something good to do!_!L>
+
+//udemy course certified
+
+//1 project a day for 30 days
+
+//Full Stack projects
+cards of projects - when hovered shows a pic of project page and link to project
+	github link
+	techstack used
+	explanation of project
+
+//footer
+contact info
+good message for employers/visitors
