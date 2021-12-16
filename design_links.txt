@@ -2,7 +2,7 @@ font - poppins
 https://fonts.google.com/specimen/Poppins
 
 color pallete
-https://colorhunt.co/palette/08d9d6252a34ff2e63eaeaea
+https://colorhunt.co/palette/316b836d82998ca1a5d5bfbf
 
 
 Structure

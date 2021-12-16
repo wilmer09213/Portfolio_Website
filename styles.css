@@ -8,7 +8,7 @@
 }
 
 .colored-section {
-    background-color: #FF2E63;
+    background-color: #D5BFBF;
 }
 
 /* container*/
@@ -127,24 +127,15 @@
 .title-introduction-h1 {
     color: white;
     font-size: 3.5rem;
-    text-shadow:
-   -2px -2px 0 #000,  
-    2px -2px 0 #000,
-    -2px 2px 0 #000,
-     2px 2px 0 #000;
 }
 
 .title-introduction-p {
     font-size: 1.5rem;
-    text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
+    color: rgba(255, 255, 255, 0.61);
 }
 
 .title-introduction u {
-    text-decoration: underline #FF2E63;
+    text-decoration: underline #8CA1A5;
 
 }
 
@@ -164,12 +155,8 @@
 }
 
 .udemy-title {
-    color:#FF2E63;
-    text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
+    border-top: solid white;
+    color: white;
 }
 
 
@@ -219,7 +206,7 @@
 /* projects */
 
 #project {
-    background-color: #08D9D6;
+    background-color: #6D8299;
     width: 100%;
     text-align: center;
     font-family: 'Bakbak One';
@@ -278,7 +265,7 @@
 }
 
 .challenge-project-holder {
-    background-color: rgba(8, 217, 214, .20);
+    background-color: rgba(140, 161, 165, .1);
     position: relative;
     width: 80%;
     height: 400px;
@@ -300,7 +287,7 @@
 
 .challenge-file {
     position: relative;
-    border: solid #FF2E63 5px;
+    border: solid #6D8299 5px;
     margin: 0 auto;
     width: 200px;
     height: 200px;
@@ -341,7 +328,7 @@
 }
 
 .challenge-file-body {
-    color: #FF2E63;
+    color: #6D8299;
     position: absolute;
     overflow: hidden;
     top: 0;
