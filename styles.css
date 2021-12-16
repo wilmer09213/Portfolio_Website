@@ -30,8 +30,8 @@
 }
 
 .navbar {
-    padding: 30px;
-    height:5%;
+    /* padding: 30px; */
+    /* height:5%; */
 }
 
 
@@ -181,7 +181,7 @@
 #techstack {
     font-family: 'Bakbak One';
     background-color: #EAEAEA;
-    padding: 1% 0 1%;
+    padding: 5% 0 5%;
  
 }
 
@@ -215,3 +215,148 @@
     max-height: 75px;
     margin: 1% 2% 1%;
 }
+
+/* projects */
+
+#project {
+    background-color: #08D9D6;
+    width: 100%;
+    text-align: center;
+    font-family: 'Bakbak One';
+}
+
+.project-title {
+    position: relative;
+    margin: 0 auto;
+    padding: 5% 0 0;
+    border-bottom: solid black;
+    width: 80%;
+    color: white;
+}
+
+.project-card-collection {
+    position: relative;
+    padding: 2%;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.project-card {
+    position:relative;
+    margin: 1% auto;
+    width: 300px;
+    height: 450px;
+}
+
+.card {
+    padding: 20px;
+}
+
+.card-title {
+    border-bottom: solid #EAEAEA;
+}
+
+.card-button {
+    margin-top: 20px
+}
+
+
+/* 100 projects in 25 days */
+
+#javascript-challenge {
+    font-family: 'Bakbak One';
+    background-color: #EAEAEA;
+    padding: 5% 0 5%;
+    text-align: center;
+}
+
+.challenge-title {
+    border-bottom: solid;
+    width: 80%;
+    margin: 0 auto 3%;
+}
+
+.challenge-project-holder {
+    background-color: rgba(8, 217, 214, .20);
+    position: relative;
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    border: solid 10px;
+    border-radius: 25px;
+}
+
+.challenge-project-row {
+    width: 85%;
+    margin: 2% auto;
+}
+
+.challenge-day {
+    border-bottom: solid black;
+    width: 80%;
+    margin: 1% auto;
+}
+
+.challenge-file {
+    position: relative;
+    border: solid #FF2E63 5px;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    
+
+}
+
+.challenge-file:hover .challenge-file-img {
+    animation: fadeIn 1s ease-in-out;
+    opacity: 100%;
+}
+
+.challenge-file:hover .challenge-file-body {
+    /* animation: fadeOut 1s ease-in-out; */
+    opacity: 0%;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: .25;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+
+
+.challenge-file-img {
+    position: absolute;
+    margin: 0 auto;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    width: 100%;
+    height: 100%;
+    opacity: 25%;
+}
+
+.challenge-file-body {
+    color: #FF2E63;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+.challenge-file-number {
+    font-size: 6rem;
+}
+
+.challenge-file-title {
+
+}
+
+/* footer */
+

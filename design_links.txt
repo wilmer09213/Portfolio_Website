@@ -21,7 +21,7 @@ icons + think of something good to do!_!L>
 
 //udemy course certified
 
-//1 project a day for 30 days
+//100 projects in 25 days
 
 //Full Stack projects
 cards of projects - when hovered shows a pic of project page and link to project
