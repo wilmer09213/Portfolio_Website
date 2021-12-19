@@ -9,3 +9,16 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
+
+function projectPopup1() {
+  let popup = document.querySelector("#project1");
+
+   popup.classList.toggle("show");
+}
+
+function projectPopup2() {
+  let project2 = document.querySelector("#project2");
+
+   project2.classList.toggle("show");
+
+}
