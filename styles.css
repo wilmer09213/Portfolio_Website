@@ -149,9 +149,13 @@
 
     text-align: center;
     position: relative;
-    margin: 0 auto;
-    top: 70%;
-    
+    margin: auto;
+
+}
+
+.udemy-cert {
+    width: 100%;
+    padding: 20% 10% 2%;
 }
 
 .udemy-title {
@@ -159,7 +163,22 @@
     color: white;
 }
 
+@media (max-width: 992px) {
+    
+    .udemy-content {
+        margin-top: 20%;
+    }
 
+    .udemy-cert {
+        width: 80%;
+    }
+
+    .udemy-title {
+        width: 80%;
+        margin: auto;
+    }
+
+}
 
 
 
@@ -210,6 +229,11 @@
     width: 100%;
     text-align: center;
     font-family: 'Bakbak One';
+    padding: 5% 0 5%;
+}
+
+.project-links {
+    width: 100%;
 }
 
 .project-title {
@@ -248,82 +272,7 @@
     margin-top: 20px
 }
 
-/* popup window */
 
-.popup-window {
-    position: fixed;
-    background-color: #D5BFBF;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 70vw;
-    height: 70vh;
-    z-index: 1;
-}
-
-.show {
-    visibility: hidden;
-}
-
-.popup-heading {
-    position: fixed;
-    border: solid black 1px;
-    width: 100%;
-    top: 0;
-    height: 10%;
-}
-
-.popup-title {
-    font-size: 1.3rem;
-    margin-left:1%;
-    width: 50%;
-    text-align: left;
-    padding: 10px;
-}
-
-.popup-image {
-    position: fixed;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 300px;
-    height: 150px;
-}
-
-.popup-description {
-    position: fixed;
-    width: 100%;
-    bottom: 0%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 3% 5%;
-}
-
-.popup-buttons {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-.popup-button {
-    position: relative;
-    padding: 1% 3% 1%;
-    margin: 3%;
-    bottom: 0;
-}
-
-.fa-window-close {
-    padding: 5px;
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 50px;
-    height: 50px;
-}
-
-.fa-window-close:hover {
-    color: red;
-}
 
 /* 100 projects in 25 days */
 
@@ -364,12 +313,39 @@
 .challenge-file {
     position: relative;
     border: solid #6D8299 5px;
-    margin: 0 auto;
-    width: 200px;
-    height: 200px;
-    
-
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    cursor: pointer;
 }
+
+@media (min-width: 1550px) {
+    
+    .challenge-file {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 992px) {
+    
+    .challenge-file {
+        max-width: 100%;
+        margin: 10px auto;
+    }
+}
+
+
+.challenge-file-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    user-select: none;
+}
+
 
 .challenge-file:hover .challenge-file-img {
     animation: fadeIn 1s ease-in-out;
@@ -403,6 +379,8 @@
     opacity: 25%;
 }
 
+
+
 .challenge-file-body {
     color: #6D8299;
     position: absolute;
@@ -413,13 +391,22 @@
     bottom:0;
 }
 
-.challenge-file-number {
-    font-size: 6rem;
+
+.challenge-file-link {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    cursor: pointer;
+    color:rgb(8, 133, 217);
 }
 
-.challenge-file-title {
-
+@media (max-width: 1170px) {
+    .challenge-file-link {
+        display: none;
+    }
 }
+
+
 
 /* footer */
 
